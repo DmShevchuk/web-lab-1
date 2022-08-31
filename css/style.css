@@ -110,6 +110,7 @@ canvas {
     border-radius: 2%;
     animation: myMove 2s infinite;
     background-color: white;
+    cursor: crosshair;
 }
 
 
