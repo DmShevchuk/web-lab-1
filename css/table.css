@@ -1,0 +1,62 @@
+/*
+
+Файл со стилями для таблицы с результатами
+
+*/
+
+.styled-table {
+    display: block;
+    border-collapse: collapse;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: fit-content;
+    max-height: 600px;
+    overflow-y: scroll;
+    border-radius: 2%;
+    background-color: white;
+    letter-spacing: 2px;
+}
+
+
+.styled-table thead tr {
+    background-color: #4CAF50;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #4CAF50;
+}
+
+.styled-table tbody tr:hover {
+    font-weight: bold;
+    background-color: #c8eebe;
+}
+
+.result-miss {
+    color: #cb2525;
+    font-weight: bold;
+}
+
+.result-hit {
+    color: #48ff00;
+    font-weight: bold;
+}

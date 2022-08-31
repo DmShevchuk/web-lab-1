@@ -1,0 +1,154 @@
+* {
+    font-family: fantasy, Verdana;
+    font-weight: lighter;
+    color: black;
+}
+
+.main-app-div:after {
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+.main-app-div__element {
+    text-align: center;
+    width: 50%;
+}
+
+.main-app-div {
+    display: flex;
+}
+
+.main-app-div__element {
+    flex: 50%;
+}
+
+
+.main-form {
+    border: 10px solid #009879;
+    border-radius: 2%;
+    background-color: white;
+}
+
+.x-button-press {
+    margin: 2%;
+}
+
+.x-value-not-chosen {
+    font-size: 12px;
+    color: red;
+
+}
+
+.x-value-chosen {
+    font-size: 17px;
+    color: #48ff00;
+}
+
+.main-form-action-buttons {
+    margin: 2%;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10%;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.clear-history-form {
+    margin-top: 2%;
+    text-align: center;
+}
+
+
+.x-button {
+    background-color: #343A40;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+
+}
+
+.x-button:hover {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+    animation: slideBG 5s linear infinite;
+}
+
+
+input[type=checkbox] {
+    transform: scale(2);
+    accent-color: #48ff00;
+}
+
+
+.checkbox-picker {
+    display: inline;
+    margin-left: 1%;
+    font-size: 17px;
+}
+
+canvas {
+    border: 10px solid #009879;
+    border-radius: 2%;
+    animation: myMove 2s infinite;
+    background-color: white;
+}
+
+
+body {
+    background: linear-gradient(-45deg,
+        rgba(238, 119, 82, 0.55),
+        rgba(231, 60, 126, 0.42),
+        rgba(35, 166, 213, 0.5),
+        rgba(35, 213, 171, 0.46));
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+}
+
+
+header {
+    margin-bottom: 5%;
+    border: 1px solid #4CAF50;
+    border-top: none;
+    border-radius: 5%;
+    background: linear-gradient(-45deg,
+        rgba(35, 166, 213, 0.5),
+        rgba(35, 213, 171, 0.46),
+        rgba(238, 119, 82, 0.55),
+        rgba(231, 60, 126, 0.42));
+    background-size: 400% 400%;
+    animation: gradient 2s ease infinite;
+}
+
+header > * {
+    display: inline;
+}
+
+header > h1,
+header > h2 {
+    margin-left: 5%;
+}
+
+#check-button:disabled {
+    background-color: #dddddd;
+    cursor: not-allowed;
+}
