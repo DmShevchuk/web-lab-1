@@ -118,5 +118,7 @@ session_start();
 <script src="js/script.js"></script>
 <script src="js/canvas.js"></script>
 <script src="js/validation.js"></script>
+<script src="js/keyListener.js"></script>
+<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
 </body>
 </html>
