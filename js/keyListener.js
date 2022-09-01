@@ -13,8 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             keyArray.shift();
         }
         keyArray.push(key);
-        if (keyArray.join('') == '1sept') {
-            console.log(1111);
+        if (keyArray.join('') === '1sept') {
             canvasBgArrayClassesCounter = (canvasBgArrayClassesCounter + 1) % 2;
             graph.className = canvasBgArrayClasses[canvasBgArrayClassesCounter];
         }
