@@ -24,7 +24,7 @@ session_start();
 </header>
 <div class="main-app-div">
     <div class="main-app-div__element">
-        <canvas class="graph" width="400" height="400"></canvas>
+        <canvas class="bg-default" width="400" height="400" id="graph"></canvas>
     </div>
     <div class="main-app-div__element">
         <form action="php/main.php" method="post" id="form" class="main-form">

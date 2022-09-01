@@ -113,6 +113,13 @@ canvas {
     cursor: crosshair;
 }
 
+.bg-default{
+    background-color: white;
+}
+
+.bg-blue{
+    background-color: rgba(104, 218, 192, 0.46);
+}
 
 body {
     background: linear-gradient(-45deg,

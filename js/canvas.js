@@ -33,7 +33,9 @@ function getCursorPosition(canvas, event) {
     const y = convertY(event.offsetY, r);
     form["x"].value = x;
     form["y"].value = y;
+
     setXvalueToHiddenInput(x);
+
     form.submit();
 }
 
